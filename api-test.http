@@ -1,0 +1,30 @@
+GET http://localhost:3000/api/customers/
+
+
+###
+
+GET http://localhost:3000/api/customers/search/1
+
+
+###
+
+POST http://localhost:3000/api/customers/create/
+Content-Type: application/json
+
+  {
+    "id": "4",
+    "email": "akash@gmail.com",
+    "name": "Akash rr"
+    "address":{
+      "line1":"H.No 227",
+      "zip": "228008",
+      "city":"Lucknow",
+      "state":"UP"
+    }
+  }
+
+###
+
+GET http://localhost:3000/api/users
+
+###
